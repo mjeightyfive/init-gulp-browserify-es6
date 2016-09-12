@@ -1,6 +1,6 @@
 {
   "name": "init-gulp-browserify-es6",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Initial setup for creating a simple static web app with Gulp, Browserify and ES6",
   "main": "gulpfile.babel.js",
   "directories": {
