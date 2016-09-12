@@ -1,0 +1,63 @@
+{
+  "name": "init-gulp-browserify-es6",
+  "version": "0.0.0",
+  "description": "Initial setup for creating a simple static web app with Gulp, Browserify and ES6",
+  "main": "gulpfile.babel.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjeightyfive/init-gulp-browserify-es6.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "gulp",
+    "browserify",
+    "es6"
+  ],
+  "author": "Marcin <mjeightyfive@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjeightyfive/init-gulp-browserify-es6/issues"
+  },
+  "homepage": "https://github.com/mjeightyfive/init-gulp-browserify-es6#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.15.0",
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-newer": "^1.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "lodash": "^4.15.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "compass-mixins": "^0.12.10",
+    "include-media": "^1.4.8",
+    "jquery": "^3.1.0",
+    "susy": "^2.2.12"
+  }
+}
